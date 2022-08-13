@@ -1,0 +1,21 @@
+head {
+  margin-top: 100px;
+}
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+}
+h1,
+h2 {
+  background-color: black;
+  color: white;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+footer p {
+  margin-top: 50px;
+}
+
+.awards {
+  margin-top: 50px;
+}
