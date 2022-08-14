@@ -23,12 +23,6 @@
   display: flex;
   justify-content: space-around;
 }
-.container-text {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  justify-content: space-around;
-}
 
 .container {
   border: 5px solid #e5e000;
@@ -38,7 +32,8 @@
   margin-top: 52px;
   margin-bottom: 52px;
   display: flex;
-  align-items: stretch;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 h3 {
