@@ -3,55 +3,143 @@
   padding: 0;
   box-sizing: border-box;
 }
-.header,
-.footer {
-  height: 60px;
-  background-color: #fe1a19;
+
+.header {
+  width: 100%;
+  height: 140px;
+  background-color: #ffffff;
+  position: fixed;
   display: flex;
-  justify-content: flex-start;
   align-items: center;
-  padding-left: 20px;
-  color: #ffffff;
-  font-family: "Helvetica";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 23px;
+  justify-content: space-between;
+  top: 0;
 }
 
-.main-container {
+.links {
   display: flex;
   justify-content: space-around;
+  list-style: none;
 }
 
-.container {
-  border: 5px solid #e5e000;
-  border-radius: 30px;
-  width: 400px;
-  height: 800px;
-  margin-top: 52px;
-  margin-bottom: 52px;
+.link-first a {
+  margin-left: 50px;
+  font-family: "Arial";
+  font-size: 50px;
+  line-height: 57px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+  color: #e50043;
+  text-decoration: none;
 }
 
-h3 {
-  margin: 0px 0px 0px 33px;
-  margin-left: 33px;
-  font-family: "Helvetica";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 23px;
+.link-first:last-of-type {
+  margin-right: 50px;
+}
+
+.main-img {
+  background-image: url(images/evian_origins_logo.png);
+  height: 950px;
+  background-size: cover;
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+
+  padding-top: 200;
 }
 
 .main-style {
-  font-family: "Times New Roman";
+  align-items: center;
+  font-family: "Arial";
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 23px;
-  margin-left: 33px;
-  width: 170px;
+  font-size: 100px;
+  line-height: 115px;
+  color: #e50043;
+  margin-top: 520px;
+}
+
+.main-content {
+  padding-top: 150px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-text {
+  width: 1040px;
+  height: 280px;
+  border: 3px solid #f8bfc7;
+  border-radius: 20px;
+  font-family: "Arial";
+  font-size: 25px;
+  letter-spacing: 0.05em;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 24px;
+  color: #000000;
+  margin-bottom: 150px;
+}
+
+.main-bottle {
+  display: flex;
+  flex-direction: row;
+}
+
+.img-bottle {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.text-img-bottle {
+  margin-top: 45px;
+  margin-left: 69px;
+  margin-bottom: 156px;
+  width: 249px;
+  font-family: "Arial";
+  font-size: 25px;
+  text-align: center;
+  color: #000000;
+}
+
+.main-bottle-footer {
+  width: 1040px;
+  height: 280px;
+  border: 3px solid #f8bfc7;
+  border-radius: 20px;
+  display: flex;
+  margin-bottom: 150px;
+}
+
+.main-text-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 749px;
+  font-family: "Arial";
+  font-size: 25px;
+  line-height: 29px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.img-bottle-footer {
+  margin: 30px 80px;
+}
+
+.footer {
+  height: 140px;
+  background: #f8bfc7;
+
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 57px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  padding-left: 50px;
 }
