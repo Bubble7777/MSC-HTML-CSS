@@ -44,8 +44,6 @@
   margin-top: 150px;
   display: flex;
   justify-content: center;
-
-  padding-top: 200;
 }
 
 .main-style {
@@ -56,7 +54,8 @@
   font-size: 100px;
   line-height: 115px;
   color: #e50043;
-  margin-top: 520px;
+  display: flex;
+  justify-content: center;
 }
 
 .main-content {
@@ -86,6 +85,7 @@
 .main-bottle {
   display: flex;
   flex-direction: row;
+  margin-bottom: 156px;
 }
 
 .img-bottle {
@@ -96,7 +96,7 @@
 .text-img-bottle {
   margin-top: 45px;
   margin-left: 69px;
-  margin-bottom: 156px;
+
   width: 249px;
   font-family: "Arial";
   font-size: 25px;
