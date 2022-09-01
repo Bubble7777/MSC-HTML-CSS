@@ -29,7 +29,7 @@
 }
 
 .main-content {
-  width: 400px;
+  width: 30%;
   height: 100%;
   border: 1px solid #000000;
 }
@@ -40,7 +40,6 @@
 
 .text-content {
   margin: 30px 33px;
-  width: 334px;
   display: flex;
   flex-direction: column;
 }
